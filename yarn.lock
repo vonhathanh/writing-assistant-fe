@@ -1190,15 +1190,7 @@ react-router-dom@^7.14.0:
   dependencies:
     react-router "7.14.0"
 
-react-router@7.14.0:
-  version "7.14.0"
-  resolved "https://registry.npmjs.org/react-router/-/react-router-7.14.0.tgz"
-  integrity sha512-m/xR9N4LQLmAS0ZhkY2nkPA1N7gQ5TUVa5n8TgANuDTARbn1gt+zLPXEm7W0XDTbrQ2AJSJKhoa6yx1D8BcpxQ==
-  dependencies:
-    cookie "^1.0.1"
-    set-cookie-parser "^2.6.0"
-
-react-router@^7.14.0:
+react-router@7.14.0, react-router@^7.14.0:
   version "7.14.0"
   resolved "https://registry.yarnpkg.com/react-router/-/react-router-7.14.0.tgz#33169c9ac03b298bb51aad13e038ba548c79a862"
   integrity sha512-m/xR9N4LQLmAS0ZhkY2nkPA1N7gQ5TUVa5n8TgANuDTARbn1gt+zLPXEm7W0XDTbrQ2AJSJKhoa6yx1D8BcpxQ==
@@ -1206,10 +1198,20 @@ react-router@^7.14.0:
     cookie "^1.0.1"
     set-cookie-parser "^2.6.0"
 
+react-social-login-buttons@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/react-social-login-buttons/-/react-social-login-buttons-4.1.1.tgz#126c5445726f0fe64c7c260ee13513cad5f53ff5"
+  integrity sha512-GEFP+QmW9y9wSfEVrlvKDtfh1mMI4Nj1XO+Di727ND22h1+g1tYbQSydz26nNq6IKnHqe7bJiJ10sqBKm39DQg==
+
 react@^19.2.4:
   version "19.2.4"
   resolved "https://registry.npmjs.org/react/-/react-19.2.4.tgz"
   integrity sha512-9nfp2hYpCwOjAN+8TZFGhtWEwgvWHXqESH8qT89AT/lWklpLON22Lc8pEtnpsZz7VmawabSU0gCjnj8aC0euHQ==
+
+reactjs-social-login@^2.6.3:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/reactjs-social-login/-/reactjs-social-login-2.6.3.tgz#41bc6006346e3c69b387854db920be121a3fc7dc"
+  integrity sha512-i/pcyJPtlVpHoPRr/j5/KjaP/GNxAInnnHDk0PD2Zo0B3cMdvr0ZiGC/GMjOKAAgKCujyniDf/OiZ7c6MrOLQg==
 
 resolve-from@^4.0.0:
   version "4.0.0"
