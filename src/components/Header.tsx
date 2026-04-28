@@ -1,4 +1,7 @@
+import { useNavigate } from "react-router-dom";
+
 export default function Header() {
+  const navigate = useNavigate();
   return (
     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
       <div style={{ display: "flex", justifyContent: "left", alignItems: "center", gap: "10px" }}>
@@ -14,7 +17,9 @@ export default function Header() {
           width="24"
           height="24"
         />
-        <button className="sign-in">Sign In</button>
+        <button className="sign-in" onClick={() => navigate("/register")}>
+          Sign In
+        </button>
       </div>
     </div>
   );

@@ -1,6 +1,6 @@
 export default function SearchBar() {
   return (
-    <div>
+    <div className="search-bar">
       <input type="text" placeholder="Search for books or authors..." className="search-input" />
       <select className="search-category">
         <option value="all">All</option>
